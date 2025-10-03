@@ -45,5 +45,5 @@
 ## 📫 Como me encontrar  
 
 - GitHub: [anfsusax](https://github.com/anfsusax)  
-- LinkedIn: [Seu LinkedIn aqui]  
-- Email: [Seu email aqui]  
+- LinkedIn: https://www.linkedin.com/in/alex-feitoza-6056a5237/  
+- Email:alexdevelopnet@gmail.com 
