@@ -1,49 +1,35 @@
 # 👋 Olá, eu sou o Alex Feitoza  
 
-💻 **Desenvolvedor .NET** apaixonado por criar soluções robustas e escaláveis, sempre com foco em **arquitetura limpa, segurança e boas práticas**.  
-🔎 Minha jornada é movida por **curiosidade**, **melhoria contínua** e **inovação em sistemas distribuídos**.  
+💻 **Backend Developer | .NET & Clean Architecture**  
+Apaixonado por criar soluções seguras, escaláveis e com **arquitetura limpa**.  
 
 ---
 
-## 🚀 O que eu faço  
-
-- Construo **APIs seguras em .NET 8 (C#)** com autenticação via **JWT**  
-- Desenvolvo **microsserviços containerizados com Docker & Docker Compose**  
-- Integro sistemas com **Kafka** para comunicação assíncrona  
-- Trabalho com **SQL Server, MySQL e SQLite**, aplicando **Repository Pattern** para flexibilidade  
-- Projeto soluções aplicando **DDD, CQRS, SOLID e Clean Code**  
-- Escrevo testes automatizados para garantir qualidade (**xUnit**)  
+## 🚀 Sobre mim  
+- 🔭 Atualmente focado em **APIs seguras e microsserviços**  
+- 🛠️ Especialista em **.NET, Docker, Kafka e bancos relacionais**  
+- 🌱 Estudando **arquitetura distribuída e inglês técnico para carreira internacional**  
+- 🧑‍💻 Apaixonado por **Clean Code, DDD, CQRS e SOLID**  
 
 ---
 
-## 🏗️ Projetos em Destaque  
+## 🛠️ Tecnologias que utilizo  
 
-- **BankMore** 🏦 – Fintech backend com microsserviços, segurança e escalabilidade  
-- **Protocol Receiver** 📑 – Serviço para recepção de protocolos com RabbitMQ + validação  
-- **FipeApp** 🚗 – Consulta e gestão de dados FIPE com .NET + SQLite  
+<p align="left">
+  <!-- Backend -->
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  
+  <!-- Databases -->
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
 
----
+  <!-- Messaging -->
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/>
 
-## 📚 Em constante evolução  
-
-- Aprimorando inglês voltado para TI e entrevistas internacionais  
-- Estudando arquitetura distribuída e mensageria em larga escala  
-- Criando conteúdo técnico para compartilhar boas práticas  
-
----
-
-## 🛠️ Stack Principal  
-
-- **Backend**: .NET 8 (C#), ASP.NET Core, EF Core  
-- **Mensageria**: Kafka, RabbitMQ  
-- **Banco de Dados**: SQL Server, MySQL, SQLite  
-- **DevOps**: Docker, Docker Compose  
-- **Arquitetura**: DDD, CQRS, SOLID, Clean Architecture  
-
----
-
-## 📫 Como me encontrar  
-
-- GitHub: [anfsusax](https://github.com/anfsusax)  
-- LinkedIn: https://www.linkedin.com/in/alex-feitoza-6056a5237/  
-- Email:alexdevelopnet@gmail.com 
+  <!-- DevOps -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img sr
