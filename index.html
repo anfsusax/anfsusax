@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Feitoza - Desenvolvedor Backend .NET especializado em Clean Architecture, DDD, CQRS e Microsserviços">
+    <meta name="keywords" content=".NET, C#, Backend Developer, Clean Architecture, DDD, CQRS, Microsserviços">
+    <meta name="author" content="Alex Feitoza">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alex Feitoza - Desenvolvedor .NET">
+    <meta property="og:description" content="Desenvolvedor Backend .NET especializado em Clean Architecture e Microsserviços">
+    
+    <title>Alex Feitoza - Desenvolvedor .NET | Backend Developer</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen bg-slate-50">
+    <!-- Cabeçalho -->
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold gradient-text">Alex Feitoza</div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 transition-colors font-medium">Início</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 transition-colors font-medium">Sobre</a>
+                    <a href="#skills" class="nav-link text-gray-700 hover:text-blue-600 transition-colors font-medium">Skills</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600 transition-colors font-medium">Projetos</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 transition-colors font-medium">Contato</a>
+                </nav>
+                <button class="md:hidden p-2" id="mobile-menu-button">
+                    <i data-lucide="menu" class="w-6 h-6 text-gray-700"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="flex flex-col space-y-4 py-4 px-4">
+            <a href="#home" class="mobile-menu-link">Início</a>
+            <a href="#about" class="mobile-menu-link">Sobre</a>
+            <a href="#skills" class="mobile-menu-link">Skills</a>
+            <a href="#projects" class="mobile-menu-link">Projetos</a>
+            <a href="#contact" class="mobile-menu-link">Contato</a>
+        </div>
+    </div>
+
+    <!-- Seção Hero -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-blue-50 pt-20">
+        <div class="container mx-auto px-4 py-20">
+            <div class="max-w-4xl mx-auto text-center">
+                  
+
+                
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-greeting">Olá, eu sou</span>
+                        <h1 class="hero-name">Alex Feitoza</h1>
+                        <p class="hero-title">Backend Developer | .NET &amp; Clean Architecture</p>
+                        <p class="hero-description">
+                            Desenvolvedor .NET apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa. 
+                            Minha jornada é movida por curiosidade, melhoria contínua e foco em entregar sistemas de alto desempenho.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-primary">
+                                <i class="fas fa-code"></i> Ver Projetos
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <i class="fas fa-envelope"></i> Entre em Contato
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-placeholder">
+                            <img src="img/eu.png" alt="Alex Feitoza" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="flex justify-center space-x-6 mb-16 animate-on-scroll">
+                    <a href="https://github.com/anfsusax" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <i data-lucide="github" class="w-6 h-6 text-gray-700"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/alex-feitoza-6056a5237/" target="_blank" rel="noopener noreferrer" class="social-icon">
+                        <i data-lucide="linkedin" class="w-6 h-6 text-gray-700"></i>
+                    </a>
+                    <a href="mailto:alexdevelopnet@gmail.com" class="social-icon">
+                        <i data-lucide="mail" class="w-6 h-6 text-gray-700"></i>
+                    </a>
+                </div>
+
+                <div class="flex justify-center space-x-8 opacity-60">
+                    <div class="tech-icon flex items-center space-x-2">
+                        <i data-lucide="server" class="w-8 h-8 text-blue-600"></i>
+                        <span class="text-sm font-medium text-gray-600">.NET</span>
+                    </div>
+                    <div class="tech-icon flex items-center space-x-2">
+                        <i data-lucide="database" class="w-8 h-8 text-blue-600"></i>
+                        <span class="text-sm font-medium text-gray-600">SQL</span>
+                    </div>
+                    <div class="tech-icon flex items-center space-x-2">
+                        <i data-lucide="code" class="w-8 h-8 text-blue-600"></i>
+                        <span class="text-sm font-medium text-gray-600">Clean Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Sobre Mim</h2>
+                    <div class="section-divider mb-8"></div>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Desenvolvedor .NET com paixão por arquitetura limpa e soluções escaláveis. 
+                        Especializado em criar sistemas robustos que combinam performance, segurança e manutenibilidade.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-6 animate-on-scroll">
+                        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-xl">
+                            <h3 class="text-2xl font-semibold text-gray-900 mb-4">Minha Jornada</h3>
+                            <p class="text-gray-700 leading-relaxed mb-4">
+                                Como desenvolvedor backend especializado em .NET, dedico-me a criar soluções que não apenas funcionam, 
+                                mas que são construídas para durar e evoluir. Minha abordagem combina as melhores práticas de desenvolvimento 
+                                com arquiteturas modernas.
+                            </p>
+                            <p class="text-gray-700 leading-relaxed">
+                                Acredito que código limpo e arquitetura bem definida são a base para sistemas de sucesso. 
+                                Por isso, aplico consistentemente princípios como DDD, CQRS e SOLID em todos os meus projetos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="grid gap-4 animate-on-scroll">
+                        <div class="card card-border-accent p-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 p-2 bg-blue-50 rounded-lg">
+                                    <i data-lucide="target" class="w-6 h-6 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Arquitetura Distribuída</h4>
+                                    <p class="text-gray-600">Experiência sólida em microsserviços e sistemas distribuídos</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-border-accent p-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 p-2 bg-blue-50 rounded-lg">
+                                    <i data-lucide="circle-check-big" class="w-6 h-6 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-gray-900 mb-2">DDD, CQRS & SOLID</h4>
+                                    <p class="text-gray-600">Aplicação prática de padrões de arquitetura limpa</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-border-accent p-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 p-2 bg-blue-50 rounded-lg">
+                                    <i data-lucide="zap" class="w-6 h-6 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Segurança JWT</h4>
+                                    <p class="text-gray-600">Projetos com autenticação e autorização robustas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-border-accent p-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 p-2 bg-blue-50 rounded-lg">
+                                    <i data-lucide="lightbulb" class="w-6 h-6 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Repository Pattern</h4>
+                                    <p class="text-gray-600">Múltiplos bancos sem reimplementar toda a solução</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-16 gradient-primary rounded-xl p-8 text-white text-center animate-on-scroll">
+                    <h3 class="text-2xl font-bold mb-4">Filosofia de Desenvolvimento</h3>
+                    <p class="text-lg opacity-90 max-w-3xl mx-auto">
+                        "Código é lido muito mais vezes do que é escrito. Por isso, priorizo clareza, manutenibilidade e 
+                        arquitetura limpa em cada linha de código que desenvolvo."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Skills -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Stack Tecnológica</h2>
+                    <div class="section-divider mb-8"></div>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Tecnologias e ferramentas que utilizo para criar soluções robustas e escaláveis
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                    <!-- Backend -->
+                    <div class="card skill-card p-6 bg-white animate-on-scroll">
+                        <div class="text-center pb-4">
+                            <div class="flex justify-center mb-3">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="server" class="w-8 h-8 text-blue-600"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-900">Backend Development</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">.NET 8 (C#)</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">ASP.NET Core</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Entity Framework Core</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Web APIs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Banco de Dados -->
+                    <div class="card skill-card p-6 bg-white animate-on-scroll">
+                        <div class="text-center pb-4">
+                            <div class="flex justify-center mb-3">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="database" class="w-8 h-8 text-green-600"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-900">Banco de Dados</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">SQL Server</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">MySQL</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">SQLite</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Repository Pattern</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mensageria -->
+                    <div class="card skill-card p-6 bg-white animate-on-scroll">
+                        <div class="text-center pb-4">
+                            <div class="flex justify-center mb-3">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="message-square" class="w-8 h-8 text-purple-600"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-900">Mensageria</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Apache Kafka</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">RabbitMQ</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Event-Driven Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DevOps -->
+                    <div class="card skill-card p-6 bg-white animate-on-scroll">
+                        <div class="text-center pb-4">
+                            <div class="flex justify-center mb-3">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="container" class="w-8 h-8 text-orange-600"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-900">DevOps</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Docker</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Docker Compose</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Arquitetura -->
+                    <div class="card skill-card p-6 bg-white animate-on-scroll">
+                        <div class="text-center pb-4">
+                            <div class="flex justify-center mb-3">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="layers" class="w-8 h-8 text-indigo-600"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-900">Arquitetura</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">DDD</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">CQRS</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">SOLID</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Clean Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testes -->
+                    <div class="card skill-card p-6 bg-white animate-on-scroll">
+                        <div class="text-center pb-4">
+                            <div class="flex justify-center mb-3">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="test-tube" class="w-8 h-8 text-red-600"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-lg font-semibold text-gray-900">Testes</h3>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">xUnit</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Unit Tests</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                                <span class="text-gray-700 text-sm">Integration Tests</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tecnologias Complementares -->
+                <div class="card bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200 p-8 animate-on-scroll">
+                    <h3 class="text-center text-xl font-semibold text-gray-900 mb-6">Tecnologias Complementares</h3>
+                    <div class="flex flex-wrap gap-2 justify-center">
+                        <span class="badge badge-secondary">JWT</span>
+                        <span class="badge badge-secondary">Swagger</span>
+                        <span class="badge badge-secondary">AutoMapper</span>
+                        <span class="badge badge-secondary">FluentValidation</span>
+                        <span class="badge badge-secondary">MediatR</span>
+                        <span class="badge badge-secondary">Git/GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Projetos em Destaque</h2>
+                    <div class="section-divider mb-8"></div>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Seleção de projetos que demonstram minha experiência em desenvolvimento backend
+                    </p>
+                </div>
+
+                <div class="grid gap-8 mb-12">
+                    <!-- Projeto BankMore -->
+                    <div class="project-card card p-6 bg-white animate-on-scroll">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="building-2" class="w-8 h-8 text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900">BankMore 🏦</h3>
+                                    <span class="badge badge-primary mt-2">Backend API</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            Backend completo de fintech com microsserviços, CQRS e Docker.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="badge badge-primary">.NET 8</span>
+                            <span class="badge badge-primary">CQRS</span>
+                            <span class="badge badge-primary">Docker</span>
+                            <span class="badge badge-primary">JWT</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button data-project="bankmore" data-action="github" class="btn btn-outline">
+                                <i data-lucide="github" class="w-4 h-4 mr-2"></i>
+                                Código
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Projeto Protocol Receiver -->
+                    <div class="project-card card p-6 bg-white animate-on-scroll">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="file-text" class="w-8 h-8 text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900">Protocol Receiver 📑</h3>
+                                    <span class="badge badge-primary mt-2">Microserviço</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            Serviço de processamento com RabbitMQ e validação robusta.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="badge badge-primary">ASP.NET Core</span>
+                            <span class="badge badge-primary">RabbitMQ</span>
+                            <span class="badge badge-primary">xUnit</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button data-project="protocol" data-action="github" class="btn btn-outline">
+                                <i data-lucide="github" class="w-4 h-4 mr-2"></i>
+                                Código
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Projeto FipeApp -->
+                    <div class="project-card card p-6 bg-white animate-on-scroll">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="p-3 bg-gray-50 rounded-full">
+                                    <i data-lucide="car" class="w-8 h-8 text-orange-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold text-gray-900">FipeApp 🚗</h3>
+                                    <span class="badge badge-primary mt-2">API REST</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            API para consulta de preços FIPE com cache inteligente.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="badge badge-primary">.NET</span>
+                            <span class="badge badge-primary">SQLite</span>
+                            <span class="badge badge-primary">Swagger</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button data-project="fipe" data-action="github" class="btn btn-outline">
+                                <i data-lucide="github" class="w-4 h-4 mr-2"></i>
+                                Código
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="gradient-primary rounded-xl p-8 text-white text-center animate-on-scroll">
+                    <h3 class="text-2xl font-bold mb-4">Interessado em Colaborar?</h3>
+                    <p class="text-lg opacity-90 mb-6">
+                        Vamos construir algo incrível juntos!
+                    </p>
+                    <button data-action="contact" class="btn btn-white">Entre em Contato</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 animate-on-scroll">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Entre em Contato</h2>
+                    <div class="section-divider mb-8"></div>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Estou sempre aberto a novas oportunidades e colaborações
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Email -->
+                    <div class="card p-6 text-center animate-on-scroll">
+                        <div class="flex justify-center mb-4">
+                            <div class="p-3 bg-blue-50 rounded-full">
+                                <i data-lucide="mail" class="w-8 h-8 text-blue-600"></i>
+                            </div>
+                        </div>
+                        <h4 class="font-semibold text-gray-900 mb-2">Email</h4>
+                        <a href="mailto:alexdevelopnet@gmail.com" class="text-blue-600 hover:text-blue-700">
+                            alexdevelopnet@gmail.com
+                        </a>
+                    </div>
+
+                    <!-- LinkedIn -->
+                    <div class="card p-6 text-center animate-on-scroll">
+                        <div class="flex justify-center mb-4">
+                            <div class="p-3 bg-blue-50 rounded-full">
+                                <i data-lucide="linkedin" class="w-8 h-8 text-blue-600"></i>
+                            </div>
+                        </div>
+                        <h4 class="font-semibold text-gray-900 mb-2">LinkedIn</h4>
+                        <a href="https://www.linkedin.com/in/alex-feitoza-6056a5237/" target="_blank" class="text-blue-600 hover:text-blue-700">
+                            Alex Feitoza
+                        </a>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="card p-6 text-center animate-on-scroll">
+                        <div class="flex justify-center mb-4">
+                            <div class="p-3 bg-blue-50 rounded-full">
+                                <i data-lucide="github" class="w-8 h-8 text-blue-600"></i>
+                            </div>
+                        </div>
+                        <h4 class="font-semibold text-gray-900 mb-2">GitHub</h4>
+                        <a href="https://github.com/anfsusax" target="_blank" class="text-blue-600 hover:text-blue-700">
+                            anfsusax
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto text-center">
+                <h3 class="text-2xl font-bold mb-4">Alex Feitoza</h3>
+                <p class="text-gray-400 mb-6">Backend Developer | .NET & Clean Architecture</p>
+                
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a href="https://github.com/anfsusax" target="_blank" class="text-gray-400 hover:text-white transition-colors">GitHub</a>
+                    <a href="https://www.linkedin.com/in/alex-feitoza-6056a5237/" target="_blank" class="text-gray-400 hover:text-white transition-colors">LinkedIn</a>
+                    <a href="mailto:alexdevelopnet@gmail.com" class="text-gray-400 hover:text-white transition-colors">Email</a>
+                </div>
+                
+                <div class="border-t border-gray-800 pt-8">
+                    <p class="text-gray-500 text-sm">© 2024 Alex Feitoza. Desenvolvido com HTML, CSS e JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
