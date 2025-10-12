@@ -40,6 +40,7 @@ Apaixonado por criar soluções seguras, escaláveis e com **arquitetura limpa**
 ## 📂 Projetos em Destaque  
 
 - 🏦 **BankMore** – Backend de fintech com microsserviços, CQRS, Docker e segurança JWT  
+- 📖 **PalavraConectada** – API REST de versículos bíblicos com análise de emoções e múltiplos frontends (Angular + Blazor)  
 - 📑 **Protocol Receiver** – Sistema de recepção de protocolos com RabbitMQ + validação  
 - 🚗 **FipeApp** – Consulta FIPE com .NET + SQLite  
 
