@@ -27,6 +27,8 @@ Apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" alt="RabbitMQ" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  <!-- Ícone de microserviços substituído por Cloud -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloud/cloud-original.svg" alt="Microservices" width="40" height="40"/>
 </p>
 
 
