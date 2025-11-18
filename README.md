@@ -14,7 +14,7 @@ Apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa.
 ---
 
 ## 🛠️ Tecnologias e Habilidades
-## 🛠️ Tecnologias e Habilidades
+ 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" width="40" height="40"/>
@@ -27,11 +27,10 @@ Apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" alt="RabbitMQ" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
-  <!-- Ícone de microserviços substituído por Cloud -->
+  <!-- Substituição do ícone de microserviços por nuvem -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloud/cloud-original.svg" alt="Microservices" width="40" height="40"/>
 </p>
-
-
+ 
 ---
 
 ## 📂 Projetos em Destaque
