@@ -7,7 +7,7 @@ Apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa.
 
 ## 🚀 Sobre mim
 - 🔭 Atualmente focado em **APIs seguras**, microsserviços e arquitetura distribuída  
-- 🛠️ Especialista em **.NET 7-9, C#, Docker, Kafka e bancos relacionais**  
+- 🛠️ Especialista em **.NET 7-9, C#, Docker, Kafka, RabbitMQ, bancos relacionais e Oracle**  
 - 🌱 Estudando **arquitetura distribuída** e **inglês técnico** para carreira internacional  
 - 🧑‍💻 Apaixonado por **Clean Code, DDD, CQRS, SOLID e boas práticas de engenharia de software**  
 
@@ -17,12 +17,16 @@ Apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa.
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlserver/sqlserver-plain.svg" alt="SQL Server" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgreSQL" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlserver/sqlserver-plain-wordmark.svg" alt="SQL Server" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" alt="PostgreSQL" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kafka/kafka-original.svg" alt="Kafka" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" alt="RabbitMQ" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microservices/microservices-original.svg" alt="Microservices" width="40" height="40"/>
 </p>
 
 ---
@@ -50,7 +54,7 @@ Projeto educacional de **padrões de design (GoF) com temas bíblicos**
 🔗 [Repositório](https://github.com/anfsusax/GoFPatternsShowCase)
 
 ### 🛒 Loja Virtual
-E-commerce didático com **.NET 9 + Angular 17+**, Kafka, PostgreSQL, Docker  
+E-commerce didático com **.NET 9 + Angular 17+**, Kafka, RabbitMQ, PostgreSQL, Docker  
 🔗 [Repositório](https://github.com/anfsusax/LojaVirtual)
 
 ### 💾 Dapper Stored Procedures Example
@@ -67,13 +71,13 @@ Sistema de recepção de protocolos com **RabbitMQ e validação de dados**
 
 <p align="left">
   <a href="https://www.linkedin.com/in/alex-feitoza-6056a5237/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/anfsusax" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="mailto:alexdevelopnet@gmail.com">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" width="40" height="40"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
