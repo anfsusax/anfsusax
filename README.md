@@ -1,3 +1,21 @@
+# 👋 Olá, eu sou o **Alex Feitoza**
+### 💻 Backend Developer | .NET • Arquitetura Limpa • Microsserviços
+
+Apaixonado por criar soluções escaláveis, seguras e elegantes usando boas práticas como Clean Architecture, DDD, CQRS e SOLID.  
+Explorando diariamente a ciência da arquitetura distribuída com uma pitada de criatividade.
+
+---
+
+## 🚀 Sobre mim
+
+🔭 Focado em desenvolvimento backend com .NET e microsserviços  
+🛠️ Experiência com APIs robustas, mensageria, segurança e bancos relacionais  
+🌱 Aprimorando inglês técnico para carreira internacional  
+⚙️ Entusiasta de padrões de projeto, Clean Code e boas práticas de engenharia  
+🧩 Resolvo problemas transformando complexidade em simplicidade  
+
+---
+
 ## 🛠️ Tecnologias e Habilidades
 <p align="left">
 
@@ -38,3 +56,68 @@
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/saucelabs.svg" alt="Microservices" width="40" height="40"/>
 
 </p>
+
+---
+
+## 📂 Projetos em Destaque
+
+### 🏦 **BankMore**
+Backend de fintech com arquitetura limpa, microsserviços, segurança JWT, Docker, mensageria e padrões avançados.  
+🔗 *Em desenvolvimento*
+
+---
+
+### 📖 **PalavraConectada**
+API REST de versículos bíblicos com análise de emoções e múltiplos frontends (Angular + Blazor).  
+🔗 *Em desenvolvimento*
+
+---
+
+### 📑 **Protocol Receiver**
+Sistema de recepção de protocolos com RabbitMQ, validação e processamento assíncrono.  
+🔗 *Em desenvolvimento*
+
+---
+
+### 🚗 **FipeApp**
+Consulta FIPE com .NET + SQLite utilizando Dapper.  
+🔗 *Disponível no GitHub*
+
+---
+
+### 🏛️ **Biblical Architecture**
+Estudo completo de arquitetura bíblica com Clean Architecture + Angular.  
+🔗 *Disponível no GitHub*
+
+---
+
+## 📊 Estatísticas do GitHub
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anfsusax&show_icons=true&theme=radical" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfsusax&layout=compact&theme=radical"/>
+</p>
+
+---
+
+## 🌐 Onde me encontrar
+
+<p align="left">
+
+<a href="https://www.linkedin.com/in/alexfeitoza" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40" alt="LinkedIn"/>
+</a>
+
+<a href="mailto:alexfeitoza.dev@gmail.com">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="40" height="40" alt="Email"/>
+</a>
+
+<a href="https://github.com/anfsusax" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/>
+</a>
+
+</p>
+
+---
+
+✨ *Este é o meu cantinho no GitHub — sempre evoluindo, sempre criando, sempre aprendendo.*
