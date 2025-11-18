@@ -1,70 +1,73 @@
-# 👋 Olá, eu sou o Alex Feitoza  
+# 👋 Olá, eu sou Alex Feitoza
 
-💻 **Backend Developer | .NET & Clean Architecture**  
-Apaixonado por criar soluções seguras, escaláveis e com **arquitetura limpa**.  
-
----
-
-## 🚀 Sobre mim  
-- 🔭 Atualmente focado em **APIs seguras e microsserviços**  
-- 🛠️ Especialista em **.NET, Docker, Kafka e bancos relacionais**  
-- 🌱 Estudando **arquitetura distribuída e inglês técnico para carreira internacional**  
-- 🧑‍💻 Apaixonado por **Clean Code, DDD, CQRS e SOLID**  
+💻 Backend Developer | .NET & Clean Architecture  
+Apaixonado por criar soluções seguras, escaláveis e com arquitetura limpa.
 
 ---
 
-## 🛠️ Tecnologias que utilizo  
-
-<p align="left">
-  <!-- Backend -->
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ASP.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  
-  <!-- Databases -->
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-
-  <!-- Messaging -->
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/>
-
-  <!-- DevOps -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white"/>
-</p>
+## 🚀 Sobre mim
+- 🔭 Atualmente focado em **APIs seguras**, microsserviços e arquitetura distribuída  
+- 🛠️ Especialista em **.NET 7-9, C#, Docker, Kafka e bancos relacionais** (SQL Server, MySQL, PostgreSQL, SQLite)  
+- 🌱 Estudando **arquitetura distribuída** e **inglês técnico** para carreira internacional  
+- 🧑‍💻 Apaixonado por **Clean Code, DDD, CQRS, SOLID e boas práticas de engenharia de software**  
 
 ---
 
-## 📂 Projetos em Destaque  
-
-- 🏦 **BankMore** – Backend de fintech com microsserviços, CQRS, Docker e segurança JWT  
-- 📖 **PalavraConectada** – API REST de versículos bíblicos com análise de emoções e múltiplos frontends (Angular + Blazor)  
-- 📑 **Protocol Receiver** – Sistema de recepção de protocolos com RabbitMQ + validação  
-- 🚗 **FipeApp** – Consulta FIPE com .NET + SQLite  
-
----
-
-## 📊 Estatísticas do GitHub  
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=anfsusax&show_icons=true&theme=tokyonight" height="160px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anfsusax&layout=compact&theme=tokyonight" height="160px"/>
-</p>
+## 🛠️ Tecnologias e Habilidades
+**Linguagens:** C# / .NET 7-9  
+**Backend:** ASP.NET Core, Web API, Blazor Server  
+**Arquiteturas:** Clean Architecture, DDD, Hexagonal, CQRS, Microservices  
+**Banco de Dados:** SQL Server, MySQL, PostgreSQL, SQLite, Dapper, EF Core  
+**Mensageria:** Kafka, RabbitMQ  
+**DevOps:** Docker, Docker Compose  
+**Testes:** xUnit, integração e unitários  
+**Autenticação e Segurança:** JWT, validação, boas práticas  
 
 ---
 
-## 🌐 Onde me encontrar  
+## 📂 Projetos em Destaque
 
-<p align="left">
-  <a href="https://github.com/anfsusax">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/SEU-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:SEU-EMAIL">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+### 🏦 BankMore
+- Backend de **fintech** com microsserviços, CQRS, Kafka, Docker, SQL Server/MySQL/SQLite  
+- Funcionalidades: cadastro e autenticação de usuários, movimentações, transferências, controle de tarifas  
+- Boas práticas: Clean Architecture, DDD, testes automatizados, JWT
+
+### 📖 PalavraConectada
+- API REST de **versículos bíblicos** com análise de emoções  
+- Frontends em Angular e Blazor, armazenamento em SQLite  
+- Integração com APIs externas de Bíblia para enriquecimento de dados  
+
+### 🛡️ SeguroPlatform
+- Microserviços para **gestão de propostas e contratação de seguros**  
+- .NET 9, Hexagonal Architecture, Clean Architecture, DDD  
+- Banco: PostgreSQL, testes unitários automatizados  
+
+### 📚 GoF Patterns Showcase
+- Projeto educacional de **padrões de design (GoF) com temas bíblicos**  
+- .NET 9, ASP.NET Core, Swagger  
+- Demonstra padrões **Criacionais, Estruturais e Comportamentais**  
+
+### 🛒 Loja Virtual
+- Exemplo didático de e-commerce com **.NET 9 + Angular 17+**  
+- Kafka para fluxo de eventos, PostgreSQL, Docker Compose  
+- Frontend responsivo com Angular Material  
+
+### 💾 Dapper Stored Procedures Example
+- CRUD de tarefas usando **Dapper e Stored Procedures**  
+- .NET 7, SQL Server, Swagger  
+
+### 📑 Protocol Receiver
+- Sistema de recepção de protocolos com **RabbitMQ e validação de dados**  
+- Backend em .NET, APIs seguras, arquitetura modular  
+
+---
+
+## 🌐 Onde me encontrar
+- 🔗 [LinkedIn](https://www.linkedin.com/in/alex-feitoza-6056a5237/)  
+- 📧 alexdevelopnet@gmail.com  
+- 🐙 [GitHub](https://github.com/anfsusax)  
+
+---
+
+## 📊 Estatísticas do GitHub
+![Alex GitHub stats](https://github-readme-stats.vercel.app/api?username=anfsusax&show_icons=true&theme=radical)
