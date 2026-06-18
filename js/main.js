@@ -222,11 +222,11 @@ function initProjectButtons() {
             github: 'https://github.com/anfsusax',
             demo: '#'
         },
-        protocol: {
+        palavraconectada: {
             github: 'https://github.com/anfsusax',
             demo: '#'
         },
-        fipe: {
+        biblical: {
             github: 'https://github.com/anfsusax',
             demo: '#'
         }
