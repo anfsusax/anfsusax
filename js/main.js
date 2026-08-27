@@ -19,12 +19,20 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollToTop();
     initContactButtons();
     initProjectButtons();
+    initContactForm();
+    initLazyLoading();
 });
 
 // ===================================
 // ÍCONES LUCIDE
 // ===================================
 function initLucideIcons() {
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+}
+
+function refreshLucideIcons() {
     if (typeof lucide !== 'undefined') {
         lucide.createIcons();
     }
@@ -43,13 +51,16 @@ function initMobileMenu() {
     // Toggle menu
     mobileMenuButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('active');
-        updateMenuIcon(mobileMenu.classList.contains('active'));
+        const isOpen = mobileMenu.classList.contains('active');
+        mobileMenuButton.setAttribute('aria-expanded', String(isOpen));
+        updateMenuIcon(isOpen);
     });
 
     // Fechar menu ao clicar em um link
     mobileMenuLinks.forEach(link => {
         link.addEventListener('click', () => {
             mobileMenu.classList.remove('active');
+            mobileMenuButton.setAttribute('aria-expanded', 'false');
             updateMenuIcon(false);
         });
     });
@@ -58,6 +69,16 @@ function initMobileMenu() {
     document.addEventListener('click', (e) => {
         if (!mobileMenu.contains(e.target) && !mobileMenuButton.contains(e.target)) {
             mobileMenu.classList.remove('active');
+            mobileMenuButton.setAttribute('aria-expanded', 'false');
+            updateMenuIcon(false);
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+            mobileMenu.classList.remove('active');
+            mobileMenuButton.setAttribute('aria-expanded', 'false');
+            mobileMenuButton.focus();
             updateMenuIcon(false);
         }
     });
@@ -72,7 +93,7 @@ function updateMenuIcon(isOpen) {
     } else {
         icon.setAttribute('data-lucide', 'menu');
     }
-    lucide.createIcons();
+    refreshLucideIcons();
 }
 
 // ===================================
@@ -152,7 +173,7 @@ function initScrollToTop() {
         scrollButton.innerHTML = '<i data-lucide="arrow-up"></i>';
         scrollButton.setAttribute('aria-label', 'Voltar ao topo');
         document.body.appendChild(scrollButton);
-        lucide.createIcons();
+        refreshLucideIcons();
     }
 
     // Mostrar/esconder botão

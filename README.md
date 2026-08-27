@@ -1,12 +1,34 @@
 # 👋 Alex Feitoza
 
-## Software Engineer | .NET | Software Architecture | Enterprise Integration
+## Senior Software Engineer | Liderança Técnica | .NET | Arquitetura de Software | Integrações Corporativas
 
-Desenvolvedor especializado em arquitetura de software, desenvolvimento backend com .NET e integrações corporativas.
+Profissional com mais de 14 anos de experiência em desenvolvimento de software, com foco em .NET, APIs, sistemas corporativos, integrações entre plataformas e bancos de dados relacionais.
 
-Minha atuação é focada na construção de sistemas escaláveis, distribuídos e sustentáveis, aplicando princípios como Clean Architecture, Domain-Driven Design (DDD), CQRS, SOLID e Event-Driven Architecture.
+Experiência na construção e sustentação de aplicações backend, APIs REST, serviços distribuídos e soluções de missão crítica nos setores financeiro, seguros, indústria, logística e documentos de segurança.
 
-Além do desenvolvimento tradicional, estudo modelagem de conhecimento, arquitetura semântica e estratégias para transformar domínios complexos em software compreensível e evolutivo.
+Perfil hands-on, combinando desenvolvimento com análise e definição de soluções, decisões arquiteturais, direcionamento técnico, apoio a desenvolvedores, troubleshooting e entrega de soluções sustentáveis.
+
+---
+
+## 💼 Experiência recente
+
+### Rennova — Desenvolvedor .NET / Integrações Corporativas
+
+**12/06/2026 — 01/07/2026**
+
+Integrações entre SAP, Salesforce e sistemas internos utilizando C#, .NET Core, Windows Forms, SQL Server, Hangfire e mensageria.
+
+### Thomas Greg do Brasil — Senior Systems Analyst
+
+**2023 — 12/2025**
+
+Desenvolvimento e evolução de sistemas corporativos estratégicos, APIs REST, integrações ERP/CRM, padrões técnicos e evolução arquitetural.
+
+### Experiências anteriores
+
+* CSN — Software Developer (2021–2023)
+* Porto Seguro — Senior Software Developer (2019–2021)
+* Banco Carrefour — Software Developer (2018–2019)
 
 ---
 
@@ -20,6 +42,15 @@ Além do desenvolvimento tradicional, estudo modelagem de conhecimento, arquitet
 * SOLID
 * Repository Pattern
 * Unit of Work
+
+### Liderança Técnica
+
+* Definição e direcionamento de soluções
+* Decisões arquiteturais
+* Apoio técnico e Code Review
+* Análise de riscos técnicos
+* Troubleshooting e análise de causa raiz
+* Interface entre negócio e tecnologia
 
 ### Sistemas Distribuídos
 
@@ -52,8 +83,13 @@ Além do desenvolvimento tradicional, estudo modelagem de conhecimento, arquitet
 ### Backend
 
 * C#
-* .NET 8
+* .NET
+* .NET Framework
+* .NET Core
 * ASP.NET Core
+* Windows Forms
+* ASP.NET WebForms
+* WCF e SOAP
 * Entity Framework Core
 * Dapper
 
@@ -69,7 +105,26 @@ Além do desenvolvimento tradicional, estudo modelagem de conhecimento, arquitet
 
 * Docker
 * Docker Compose
+* Azure DevOps
 * CI/CD
+
+### Cloud e Mensageria
+
+* AWS Lambda
+* Amazon SQS
+* API Gateway
+* Kafka
+* RabbitMQ
+* Hangfire
+
+### Integrações e Legado
+
+* SAP
+* Salesforce
+* Web Services
+* XML
+* Report Server
+* Git
 
 ### Observabilidade
 
@@ -80,19 +135,19 @@ Além do desenvolvimento tradicional, estudo modelagem de conhecimento, arquitet
 
 * Blazor
 * Angular
-* React
+* TypeScript
 
 ---
 
 ## 📂 Projetos
 
-### 🏦 BankMore
+### 🏦 [BankMore](https://github.com/anfsusax/bankmore-microservices)
 
 Plataforma bancária baseada em microsserviços.
 
 Tecnologias:
 
-* .NET 8
+* .NET
 * Clean Architecture
 * DDD
 * CQRS
@@ -107,37 +162,39 @@ Simular padrões utilizados por fintechs modernas.
 
 ---
 
-### 📖 PalavraConectada
+### ☁️ [AWS Lambda com C#](https://github.com/anfsusax/lambda-aws-Local)
 
-Plataforma de conhecimento bíblico baseada em relacionamentos semânticos.
+Projeto de aprendizado sobre desenvolvimento, teste local e deploy de funções AWS Lambda utilizando C# e .NET.
 
-Principais conceitos:
+Principais tecnologias e conceitos:
 
-* Pessoas
-* Eventos
-* Lugares
-* Conceitos
-* Ensinos
-* Profecias
+* .NET 10 e C#
+* AWS Lambda
+* API Gateway
+* Dependency Injection
+* CloudWatch e logging
+* Testes locais de funções serverless
 
 ---
 
-### 🏛 Biblical Knowledge Architecture
+### 🏛 [Architect Academy](https://github.com/alexnfeitozad/ArchitectAcademy)
 
-Projeto focado em modelagem de conhecimento.
+Universidade virtual voltada à formação em arquitetura de software.
 
 Explora:
 
-* Knowledge Graphs
-* Ontologias
-* Engenharia de Conhecimento
-* Modelagem de Domínio
+* Clean Architecture
+* DDD e CQRS
+* Blazor Server
+* SQL Server
+
+Outros projetos estão disponíveis nos perfis [anfsusax](https://github.com/anfsusax?tab=repositories) e [alexnfeitozad](https://github.com/alexnfeitozad?tab=repositories).
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Direção
 
-Construir soluções capazes de transformar regras de negócio complexas em software sustentável, escalável e preparado para evoluir.
+Atuar como Tech Lead / Technical Lead .NET, combinando experiência hands-on, decisões arquiteturais, direcionamento de soluções e apoio técnico para entregar software alinhado às necessidades do negócio.
 
 ---
 
